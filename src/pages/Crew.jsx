@@ -35,7 +35,7 @@ const Crew = () => {
   //   }, 1000);
   // }, [index]);
 
-  console.log("crewData", crewData);
+  
   return (
     <div className=" z-10 text-white lg:bg-crewDesktop md:bg-crewTablet bg-crewMobile min-h-screen  bg-center bg-cover">
       <div className="mx-[5rem]">
