@@ -19,7 +19,10 @@ export default {
       backgroundImage:{
         'desktop':'url("../src/assets/images/Home/bg1.jpg")',
         'tablet':'url("../src/assets/images/Home/tab.jpg")',
-        'mobile':'url("../src/assets/images/Home/mob.jpg")'
+        'mobile':'url("../src/assets/images/Home/mob.jpg")',
+        'desDes':'url("../src/assets/images/destination/desDes.jpg")',
+        'desTab':'url("../src/assets/images/destination/desTab.jpg")',
+        'desMob':'url("../src/assets/images/destination/desMob.jpg")'
       }
     },
   },

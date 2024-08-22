@@ -2,7 +2,9 @@
 
 const Destination = () => {
   return (
-    <div >Destination</div>
+    <div className="">
+ljvkfjvjfv
+    </div>
   )
 }
 
