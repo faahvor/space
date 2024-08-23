@@ -9,9 +9,9 @@ const Navbar = () => {
   };
   return (
     <div className="  fixed w-screen">
-      <div className="flex justify-between items-center pt-[2rem] bg-gray-500/30   top-0 relative">
+      <div className="flex justify-between items-center lg:pt-[2rem] pt-[2rem] md:pt-0 top-0 relative">
         <img
-          className="h-[2rem] ml-[4rem] mr-11"
+          className="h-[2rem] md:ml-[4rem] ml-5 mr-11"
           src="./src/assets/logo.svg"
           alt="Logo"
         />
@@ -20,7 +20,7 @@ const Navbar = () => {
           <hr className=" hidden  lg:flex border-t-2 border-slate-500 w-[25rem] z-30 border-opacity-10  absolute ml-[-23rem] " />
 
           <nav className="text-white">
-            <ul className=" hidden md:flex lg:flex gap-[3rem] bg-white backdrop-blur-lg font-con text-[14px] shadow-lg bg-opacity-5 pl-[4rem] py-8 pr-[10rem] rounded-l-lg">
+            <ul className=" hidden  md:flex lg:flex gap-[3rem] w-full bg-white backdrop-blur-lg font-con text-[14px] shadow-lg bg-opacity-5 pl-[4rem] py-8 lg:pr-[10rem] pr-[6rem] rounded-l-lg">
               <li>
                 <Link to="/">00 Home</Link>{" "}
               </li>
