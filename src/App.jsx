@@ -11,11 +11,11 @@ function App() {
 
   
   const getBackgroundClass = () => {
+
+    console.log(location.pathname);
     switch (location.pathname) {
       case "/":
         return "lg:bg-desktop md:bg-tablet bg-mobile";
-      case "/destination":
-        return "lg:bg-desDes md:bg-desTab bg-desMob";
       case "/crew":
         return "lg:bg-crew-desktop md:bg-crew-tablet bg-crew-mobile";
       case "/technology":
@@ -26,7 +26,7 @@ function App() {
   };
 
   return (
-    <div className={`${getBackgroundClass()} min-h-screen bg-cover`}>
+    <div className={` min-h-scn`}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

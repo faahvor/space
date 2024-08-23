@@ -8,8 +8,8 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <div>
-      <div className="flex justify-between items-center pt-[2rem]  lg:pt-[3rem] relative">
+    <div className="  fixed w-screen">
+      <div className="flex justify-between items-center pt-[2rem] bg-gray-500/30   top-0 relative">
         <img
           className="h-[2rem] ml-[4rem] mr-11"
           src="./src/assets/logo.svg"
@@ -51,22 +51,33 @@ const Navbar = () => {
 
       <div
         id="menu"
-        className={`bg-white backdrop-blur-lg shadow-lg bg-opacity-5 absolute font-con text-[16px] font-normal text-white right-0 left-[10rem] h-full top-0 px-10 pt-[8rem] ${
+        className={`bg-white backdrop-blur-lg shadow-lg bg-opacity-5 absolute font-con text-[16px] font-normal text-white right-0 left-[10rem] h-screen  top-0 px-10 pt-[8rem] ${
           menuOpen ? "flex" : "hidden"
         } `}
       >
         <ul className="flex flex-col gap-[25px]">
           <li>
-            <Link to="/"> <span className="font-bold mr-2">00</span> Home</Link>{" "}
+            <Link to="/">
+              {" "}
+              <span className="font-bold mr-2">00</span> Home
+            </Link>{" "}
           </li>
           <li>
-            <Link to="/destination"> <span className="font-bold mr-2">01</span> Destination</Link>{" "}
+            <Link to="/destination">
+              {" "}
+              <span className="font-bold mr-2">01</span> Destination
+            </Link>{" "}
           </li>
           <li>
-            <Link to="/crew"><span className="font-bold mr-2">02</span> Crew</Link>{" "}
+            <Link to="/crew">
+              <span className="font-bold mr-2">02</span> Crew
+            </Link>{" "}
           </li>
           <li>
-            <Link to="/technology"> <span className="font-bold mr-2">03</span> Technology</Link>{" "}
+            <Link to="/technology">
+              {" "}
+              <span className="font-bold mr-2">03</span> Technology
+            </Link>{" "}
           </li>
         </ul>
       </div>
