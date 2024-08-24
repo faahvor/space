@@ -26,7 +26,7 @@ function App() {
   // };
 
   return (
-    <div className={` min-h-scn`}>
+    <div className=" min-h-screen " >
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

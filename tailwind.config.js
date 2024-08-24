@@ -20,9 +20,9 @@ export default {
         'desktop':'url("../src/assets/images/Home/bg1.jpg")',
         'tablet':'url("../src/assets/images/Home/tab.jpg")',
         'mobile':'url("../src/assets/images/Home/mob.jpg")',
-        'destination-desktop':'url("../src/assets/images/destination/desDes.jpg")',
-        'destination-tablet':'url("../src/assets/images/destination/desTab.jpg")',
-        'destination-mobile':'url("../src/assets/images/destination/desMob.jpg")'
+        'destinationDesktop':'url("../src/assets/images/destination/desDesk.jpg")',
+        'destinationTablet':'url("../src/assets/images/destination/desTab.jpg")',
+        'destinationMobile':'url("../src/assets/images/destination/desMob.jpg")'
       }
     },
   },
