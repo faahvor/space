@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Destination = () => {
   return (
     <div className="min-h-screen pt-[6rem] lg:bg-destinationDesktop md:bg-destinationTablet bg-destinationMobile bg-cover bg-center text-white   flex items-end justify-center">
@@ -17,10 +19,12 @@ const Destination = () => {
         <div className="flex flex-2 flex-col lg:w-[445px] lg:h-[472px] pt-[4rem] items-center lg:items-start">
           <div>
             <ul className="flex gap-[2rem] text-[16px] font-con uppercase text-[#D0D6F9] ">
-              <li>Moon</li>
-              <li>mars</li>
-              <li>europa</li>
-              <li>titan</li>
+              <li>
+                <Link to="/moon"> Moon</Link>
+               </li>
+              <li> <Link to="/mars">mars</Link> </li>
+              <li><Link to="/europa">europa</Link></li>
+              <li><Link to="/titan">titan</Link></li>
             </ul>
           </div>
           <h1 className="lg:text-[100px] text-[80px] uppercase font-belle ">moon</h1>
