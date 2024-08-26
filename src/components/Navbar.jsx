@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex justify-between  mb-[20rem] items-center lg:pt-[2rem] pt-[2rem] md:pt-0 top-0 relative">
         <img
           className="h-[2rem] md:ml-[4rem] ml-5 mr-11"
-          src="./src/assets/logo.svg"
+          src="../src/assets/logo.svg"
           alt="Logo"
         />
 

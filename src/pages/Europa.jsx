@@ -5,9 +5,6 @@ const Europa = () => {
     (dest) => dest.name === "Europa"
   );
 
-  if (!destinationData) {
-    return <div>Destination not found</div>;
-  }
 
   return (
     <div>
