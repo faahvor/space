@@ -6,28 +6,28 @@ const Mars = () => {
   );
 
   return (
-    <div className="flex lg:flex-row flex-col justify-center justify-items-center mx-[2rem] lg:gap-[10rem]">
+    <div className="flex lg:flex-row flex-col justify-center justify-items-center mx-[2rem] lg:gap-[10rem] mt-[3px] lg:mt-0">
       <div className="flex flex-1 flex-col items-center">
         <h1 className="text-[28px] font-barlow font-normal flex gap-4 md:ml-[-30rem] lg:ml-0">
           <span className="text-[#D0D6F9]">01</span>
           <span className="uppercase">Pick your destination</span>
         </h1>
         <img
-          className="lg:h-[390px] lg:w-[390px] w-[300px] h-[300px] pl-[4rem] lg:pt-[5rem]"
+          className="lg:h-[390px] lg:w-[390px] md:w-[300px] md:h-[290px] w-[259px] h-[259px] pl-[4rem] lg:pt-[5rem] mr-[4rem] lg:mr-0"
           src={destinationData.images.png} alt={destinationData.name}
         />
       </div>
-      <div className="flex flex-2 flex-col lg:w-[445px] lg:h-[472px] pt-[4rem] items-center lg:items-start">
+      <div className="flex flex-2 flex-col lg:w-[445px] lg:h-[472px] pt-[4rem] ml-[10rem]  items-center lg:items-start">
        
-        <h1 className="lg:text-[100px] text-[80px] uppercase font-belle">
+        <h1 className="lg:text-[80px]  text-[56px] mt-[1rem] md:mt-[-2rem] lg:mt-[4rem] uppercase font-belle mr-[9rem] lg:mr-0">
           {destinationData.name}
         </h1>
         <div>
-          <p className="lg:text-[18px] text-[16px] font-barlow leading-[32px] pb-5 w-[35rem] lg:w-auto lg:text-start text-center">
+          <p className="lg:text-[18px] text-[16px] font-barlow leading-[32px] pb-5 md:w-[573px] w-[327px] lg:w-auto mr-[9rem] lg:mr-0 text-center lg:text-start">
             {destinationData.description}
           </p>
         </div>
-        <div className="flex gap-6">
+        <div className="flex gap-6 mr-[9rem] lg:mr-0">
           <span>
             <h3 className="text-[14px] font-con text-[#D0D6F9] uppercase">
               Avg Distance:

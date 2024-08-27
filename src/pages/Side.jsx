@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
@@ -6,47 +7,31 @@ const Side = () => {
   const [activeDestination, setActiveDestination] = useState("Moon");
   const navigate = useNavigate();
 
-  const handleClick = (destination) => {
-    navigate(`/destination/${destination}`)
-  };
-
   return (
-    <div>
+    <div className="absolute lg:top-[13rem] lg:right-[20rem] top-[27rem] right-[5rem] md:right-[20rem]">
       <ul className="flex gap-[2rem] text-[16px] font-con uppercase text-[#D0D6F9]">
-        <Link to="/destination/moon">
-          <li
-           
-            className={
-              location.pathname === "/destination/moon"
-                ? "active"
-                : "bg-red-600 text-5xl cursor-pointer"
-            }
-          >
-            Moon
-          </li>
-        </Link>{" "}
+        <li
+          className={location.pathname === "/destination/moon" ? "active" : ""}
+        >
+          <Link to="/destination/moon"> Moon</Link>
+        </li>
+
         <li
           className={location.pathname === "/destination/mars" ? "active" : ""}
         >
-          <Link to="/destination/mars" >
-            Mars
-          </Link>
+          <Link to="/destination/mars">Mars</Link>
         </li>
         <li
           className={
             location.pathname === "/destination/europa" ? "active" : ""
           }
         >
-          <Link to="/destination/europa" onClick={() => handleClick("europa")}>
-            Europa
-          </Link>
+          <Link to="/destination/europa">Europa</Link>
         </li>
         <li
           className={location.pathname === "/destination/titan" ? "active" : ""}
         >
-          <Link to="/destination/titan" onClick={() => handleClick("titan")}>
-            Titan
-          </Link>
+          <Link to="/destination/titan">Titan</Link>
         </li>
       </ul>
     </div>
