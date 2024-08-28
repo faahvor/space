@@ -24,7 +24,7 @@ export default {
         'destinationTablet':'url("../src/assets/images/destination/desTab.jpg")',
         'destinationMobile':'url("../src/assets/images/destination/desMob.jpg")',
         'crewDesktop':'url("../src/assets/images/image/background-crew-desktop.jpg")',
-        'crewTablet':'url("../src/assets/imagesimage/background-crew-tablet.jpg")',
+        'crewTablet':'url("../src/assets/images/image/background-crew-tablet.jpg")',
         'crewMobile':'url("../src/assets/images/image/background-crew-mobile.jpg")'
       }
     },
