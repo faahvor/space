@@ -25,7 +25,10 @@ export default {
         'destinationMobile':'url("../src/assets/images/destination/desMob.jpg")',
         'crewDesktop':'url("../src/assets/images/image/background-crew-desktop.jpg")',
         'crewTablet':'url("../src/assets/images/image/background-crew-tablet.jpg")',
-        'crewMobile':'url("../src/assets/images/image/background-crew-mobile.jpg")'
+        'crewMobile':'url("../src/assets/images/image/background-crew-mobile.jpg")',
+        'techDesktop':'url("../src/assets/images/tecknology/background-technology-desktop.jpg")',
+        'techTablet':'url("../src/assets/images/tecknology/background-technology-tablet.jpg")',
+        'techMobile':'url("../src/assets/images/tecknology/background-technology-mobile.jpg")'
       }
     },
   },
