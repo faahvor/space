@@ -40,20 +40,14 @@ const Titan = () => {
             <h3 className="text-[14px] font-con text-[#D0D6F9] uppercase">
               Est. Travel Time:
             </h3>
-            <p className="text-[28px] font-belle font-normal">
+            <p className="text-[28px] font-belle font-normal ">
               {destinationData.travel}
             </p>
           </span>
         </div>
       </div>
     </div>
-    // <div>
-    //   <h1>{destinationData.name}</h1>
-    //   <img src={destinationData.images.png} alt={destinationData.name} />
-    //   <p>{destinationData.description}</p>
-    //   <p>Avg Distance: {destinationData.distance}</p>
-    //   <p>Est. Travel Time: {destinationData.travel}</p>
-    // </div>
+   
   );
 };
 

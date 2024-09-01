@@ -8,7 +8,7 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <div className="  fixed w-screen">
+    <div className="  fixed w-screen z-50">
       <div className="flex justify-between  mb-[20rem] items-center lg:pt-[2rem] pt-[2rem] md:pt-0 top-0 relative">
         <img
           className="h-[2rem] md:ml-[4rem] ml-5 mr-11"
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
         <div className="md:hidden lg:hidden" onClick={navToggle}>
           <button
-            className={`z-40 mt-3 mr-6 block hamburger md:hidden lg:hidden focus:outline-none ${
+            className={`z-50 mt-3 mr-6 block hamburger md:hidden lg:hidden focus:outline-none ${
               menuOpen ? "open" : ""
             }`}
           >

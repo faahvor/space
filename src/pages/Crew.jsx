@@ -37,7 +37,7 @@ const Crew = () => {
 
   console.log("crewData", crewData);
   return (
-    <div className="  text-white lg:bg-crewDesktop md:bg-crewTablet bg-crewMobile min-h-screen  bg-center bg-cover">
+    <div className=" z-10 text-white lg:bg-crewDesktop md:bg-crewTablet bg-crewMobile min-h-screen  bg-center bg-cover">
       <div className="mx-[5rem]">
         <h1 className="text-[28px]  uppercase font-con pt-[8rem]">
           <span className="text-[#a0a3ad]">02</span> Meet your crew
