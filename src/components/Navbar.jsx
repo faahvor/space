@@ -9,10 +9,10 @@ const Navbar = () => {
   };
   return (
     <div className="  fixed w-screen z-50">
-      <div className="flex justify-between  items-center lg:pt-[4rem]  pt-[2rem] md:pt-0 top-0 relative">
+      <div className="flex justify-between  items-center lg:pt-[4rem]  pt-[1.4rem] md:pt-0 top-0 relative">
         <img
           className="h-[2rem] md:ml-[4rem] ml-5 mr-11"
-          src="../src/assets/logo.svg"
+          src="/logo.svg"
           alt="Logo"
         />
 

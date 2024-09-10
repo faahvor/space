@@ -7,7 +7,7 @@ import Side from "./Side";
 
 const Destination = () => {
   return (
-    <div className="min-h-screen pt-[6rem] lg:bg-destinationDesktop md:bg-destinationTablet bg-destinationMobile bg-cover bg-center text-white flex items-end justify-center">
+    <div className="min-h-screen pt-[6rem] lg:bg-destinationDesktop md:bg-destinationTablet bg-destinationMobile bg-cover bg-center text-white flex lg:items-end  justify-center">
       <div>
         <div>
           <Routes>
