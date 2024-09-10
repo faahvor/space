@@ -1,0 +1,11 @@
+{
+    "build": {
+      "env": {
+        "NODE_VERSION": "14.x"
+      }
+    },
+    "rewrites": [
+      { "source": "/destination", "destination": "/index.html" },
+      { "source": "/destination/moon", "destination": "/index.html" }
+    ]
+  }
